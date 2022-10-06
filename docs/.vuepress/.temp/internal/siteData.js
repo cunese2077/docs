@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"cunese\",\"description\":\"\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/favicon.ico\"}],[\"meta\",{\"name\":\"keywords\",\"content\":\"vuepress v2.x\"}]],\"locales\":{\"/\":{\"lang\":\"en-US\",\"description\":\"Vue-powered Static Site Generator\"},\"/about\":{\"lang\":\"zh-CN\",\"description\":\"Vue 驱动的静态网站生成器\"}}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
