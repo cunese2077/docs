@@ -70,6 +70,9 @@ locales: {
          notFound: ['抱歉，页面走丢了'],
          // 404 页面 回到首页 文字
          backToHome: '回到首页',
+         // 切换黑暗模式按钮文字提示 (三元表达式，有问题)
+        //  toggleColorMode: color ? '开启暗夜模式' : '开启白昼模式',
+        toggleColorMode:  '切换颜色模式' ,
       }),
 }
 
