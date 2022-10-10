@@ -49,6 +49,10 @@ locales: {
              text: '关于',
              link: '/about',
            },
+           {
+            text: 'GitHub',
+            link: 'https://github.com/',
+          },
          ],
          // logo 
          logo: '/favicon_1.ico',
@@ -56,24 +60,25 @@ locales: {
          logoDark: '/favicon.ico',
          // 侧边栏
          sidebar: 'auto',
-         // 编辑此页 
+         // 编辑此页 (是否允许、编辑文字、仓库地址、分支、目录名、编辑此页的链接)
          editLink: true,
-         editLinkText: 'Edit this page',
-         editLinkPattern: 'https://gitlab.com/owner/name',
+         editLinkText: '在 GitHub 上编辑此页',
+         docsRepo: 'https://github.com/cunese2077/docs',
+         docsBranch: 'main',
+         docsDir: 'docs',
+         editLinkPattern: ':repo/edit/:branch/:path',
          // 最近更新
          lastUpdated: true,
          lastUpdatedText: '上一次更新',
          // 贡献者
-         contributors: true,
+         contributors: false,
          contributorsText: '贡献者',
          // 404 页面提示
          notFound: ['抱歉，页面走丢了'],
          // 404 页面 回到首页 文字
          backToHome: '回到首页',
          // 切换黑暗模式按钮文字提示 (三元表达式，有问题)
-        //  toggleColorMode: color ? '开启暗夜模式' : '开启白昼模式',
+        //  toggleColorMode: this.colorModeSwitch ? '开启暗夜模式' : '开启白昼模式',
         toggleColorMode:  '切换颜色模式' ,
       }),
 }
-
-
