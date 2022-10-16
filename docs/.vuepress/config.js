@@ -1,6 +1,8 @@
 import { defaultTheme } from 'vuepress'
 
 export default {
+  // github 仓库后缀
+  base: "/docs/",
   title: "cunese",
   // description: "",    //  会被每个页面的 description 覆盖
   head: [
