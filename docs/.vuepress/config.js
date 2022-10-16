@@ -12,7 +12,7 @@ export default {
 locales: {
   // 键名是该语言所属的子路径
   // 作为特例，默认语言可以使用 '/' 作为其路径。
-  // title 会覆盖上面设置的 title
+  // title 会覆盖上面设置的 title 
   '/': {
     lang: 'en-US',
     // title: 'VuePress',
