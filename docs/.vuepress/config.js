@@ -73,7 +73,7 @@ locales: {
          lastUpdated: true,
          lastUpdatedText: '上一次更新',
          // 贡献者
-         contributors: false,
+         contributors: true,
          contributorsText: '贡献者',
          // 404 页面提示
          notFound: ['抱歉，页面走丢了'],
